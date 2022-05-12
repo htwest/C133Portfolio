@@ -13,8 +13,9 @@ body  {
 }
 
 .sidebar {
+  /* sidebar is initally hidden upon page-load */
   position: fixed;
-  left: 0;
+  left: -250px;
   width: 250px;
   height: 100%;
   background-color: #01152C;

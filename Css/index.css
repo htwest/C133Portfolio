@@ -49,7 +49,7 @@ body  {
   font-size: 30px;
   color: #EAEBED;
   text-align: center;
-  line-height: 70px;
+  line-height: 100px;
   background-color: rgb(94, 165, 250, 0.7);
   user-select: none;
 }
@@ -88,7 +88,6 @@ label #btn,
 label #cancel {
   position: absolute;
   cursor: pointer;
-  background-color: #01152C;
   border-radius: 3px;
 }
 
@@ -98,6 +97,7 @@ label #cancel {
   top: 25px;
   font-size: 25px;
   color:#EAEBED;
+  background-color: #01152C;
   padding: 6px 8px;
   transition: all 0.7s ease;
 }

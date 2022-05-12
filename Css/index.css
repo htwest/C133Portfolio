@@ -12,6 +12,11 @@ body  {
   font-family: 'Domine', sans-serif;
 }
 
+
+/* **********
+  SIDEBAR
+********** */
+
 .sidebar {
   /* sidebar is initally hidden upon page-load */
   position: fixed;
@@ -32,6 +37,7 @@ body  {
 }
 
 .sidebar ul a {
+  /* Link display */
   display: block;
   height: 100%;
   width: 100%;
@@ -46,6 +52,7 @@ body  {
 }
 
 ul li:hover a {
+  /* Hover effect */
   padding-left: 50px;
   background-color: #335B8A;
 }
@@ -55,6 +62,7 @@ ul li:hover a {
 }
 
 #check {
+  /* Used to switch displays */
   display: none;
 }
 
@@ -64,4 +72,25 @@ label #cancel {
   cursor: pointer;
   background-color: #01152C;
   border-radius: 3px;
+}
+
+#btn {
+  /* Set Nav Button inital position & display */
+  left: 48px;
+  top: 25px;
+  font-size: 25px;
+  color:#EAEBED;
+  padding: 6px 8px;
+  transition: all 0.7 ease;
+}
+
+#cancel {
+  /* Set Cancel Button inital postion & display */
+  z-index: 1111;
+  left: 220px;
+  top: 5px;
+  font-size: 25px;
+  color:#EAEBED;
+  padding: 2px 5px;
+  transition: all 0.7 ease;
 }

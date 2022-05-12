@@ -16,7 +16,7 @@ body  {
   BACKGROUND
 ********** */
 
-#myVideo {
+#background-video {
   /* Set video to 100% width and height */
   position: fixed;
   right: 0;
@@ -31,7 +31,6 @@ body  {
   top: 0;
 }
 
-
 /* **********
   SIDEBAR
 ********** */
@@ -42,7 +41,7 @@ body  {
   left: -250px;
   width: 250px;
   height: 100%;
-  background-color: #01152C;
+  background-color: rgb(1, 21, 44, 0.5);
   transition:all 0.7s ease;
 }
 
@@ -51,7 +50,7 @@ body  {
   color: #EAEBED;
   text-align: center;
   line-height: 70px;
-  background-color: #5EA5FA;
+  background-color: rgb(94, 165, 250, 0.7);
   user-select: none;
 }
 

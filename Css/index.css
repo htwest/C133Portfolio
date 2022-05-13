@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
 }
 
 body  {
@@ -145,22 +143,15 @@ main  {
   color:#EAEBED;
 }
 
-h1 {
-  font-size: 150px;
-}
-
-h3 {
-  font-size: 50px;
-}
-
-h4 {
-  font-size: 30px;
+br {
+  line-height: 3px;
 }
 
 footer {
   display:block;
   position: fixed;
   bottom: 0;
+  left: 50vw;
   padding-bottom: 10px;
   text-align: center;
   font-size: 10px;
@@ -182,6 +173,17 @@ footer a {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+.intro-box h1 {
+  font-size: 150px;
+}
+
+.intro-box h3 {
+  font-size: 50px;
+}
+
+.intro-box h4 {
+  font-size: 30px;
 }
 
 .intro-box span {
@@ -221,8 +223,15 @@ footer a {
   color: #EAEBED;
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
+  width: 100%;
+  height: 100%;
   overflow-y: scroll;
+  padding-left: 250px;
+  padding-right: 150px;
+}
+
+.body-box h2 {
+  font-size: 200%;
 }
 
 .code-text {
@@ -233,16 +242,31 @@ footer a {
   line-height: 15px;
 }
 
+/* Code Indent Positions */
 .indent-one{
   padding-left: 10px;
 }
 .indent-two{
   padding-left: 20px;
 }
+.indent-three {
+  padding-left: 30px;
+}
+.indent-four {
+  padding-left: 50px;
+}
 
 .indent-letter {
   font-weight: bold;
   font-size: 50px;
+}
+
+.education-list h3 {
+  margin-left: 80px;
+}
+
+.education-list li{
+ margin: 10px 10px 10px 150px;
 }
 
 #bio-intro {
@@ -261,4 +285,5 @@ footer a {
   border: 3px solid  #EAEBED;
   margin-left: 40px;
   margin-top: 50px;
+  margin-bottom: 30px;
 }

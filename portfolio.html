@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      Author: Hayden West
+      Date: 5/5/2022
+      File: Bio.html
+      Desc: Bio Page for final project
+
+      Dependencies: Uses "FontAwesome"
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- *****
+      BACKGROUND
+    ***** -->
+    <video autoplay muted loop id="background-video">
+      <source src="Images/Stars.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <!-- *****
+      SIDEBAR
+    ***** -->
+    <div class="content">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fa fa-bars" aria-hidden="true" id="btn"></i>
+        <i class="fa fa-times" aria-hidden="true" id="cancel"></i>
+      </label>
+      <div class="sidebar">
+        <header>About Me</header>
+        <ul>
+          <li>
+            <a href="index.html"
+              ><i class="fa fa-ravelry" aria-hidden="true"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="bio.html"
+              ><i class="fa fa-book" aria-hidden="true"></i>Bio</a
+            >
+          </li>
+          <li>
+            <a href="skills.html"
+              ><i class="fa fa-star" aria-hidden="true"></i>Skills</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa fa-folder-open-o" aria-hidden="true"></i
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <main>
+        <!-- *****
+        MAIN
+        ***** -->
+        <div class="body-box"></div>
+        <!-- *****
+          FOOTER
+        ***** -->
+        <footer>
+          <p>copyright 2022</p>
+          <p>
+            Background by
+            <a
+              href="https://www.pexels.com/@robert-daniel-95408508/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+              >Robert Daniel
+            </a>
+          </p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

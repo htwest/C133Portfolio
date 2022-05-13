@@ -215,10 +215,6 @@ footer a {
   box-shadow: 3px 3px #5EA5FA;
 }
 
-/* **********
-  BIO
-********** */
-
 .body-box {
   color: #EAEBED;
   display: flex;
@@ -229,6 +225,10 @@ footer a {
   padding-left: 250px;
   padding-right: 150px;
 }
+
+/* **********
+  BIO
+********** */
 
 .body-box h2 {
   font-size: 200%;

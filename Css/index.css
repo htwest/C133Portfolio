@@ -267,6 +267,8 @@ footer a {
 
 #bio-box {
   font-size: 30px;
+  padding: 10px;
+  background-color: rgb(1, 21, 44, 0.7);
 }
 
 #bio-box h3 {

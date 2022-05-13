@@ -417,33 +417,34 @@ footer a {
 
 .work-box img {
   max-width: 600px;
-  /* margin-right: 20px;
-  margin-left: 20px; */
 }
 
 .work-description {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  background-color: rgb(1, 21, 44, 0.5);
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   margin: 0 20px 0 20px;
 }
 
 .work-description p {
-  background-color: blue;
+  background-color: rgb(234, 235, 237, 0.9);
+  color: rgb(1, 21, 44);
   z-index: 9999;
   padding: 30px;
   margin: 30px -80px 30px -80px;
 }
 
 .work-description span {
-  background-color: green;
+  background-color: #2196F3;
+  border: 1px solid #EAEBED;
   padding: 10px;
   margin: 0px 10px 0 10px;
 }
 
-.work-description button  {
+.work-description a  {
   margin-top: 20px;
   margin-bottom: -90px;
   color: #EAEBED;

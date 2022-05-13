@@ -213,3 +213,52 @@ footer a {
   box-shadow: 3px 3px #5EA5FA;
 }
 
+/* **********
+  BIO
+********** */
+
+.body-box {
+  color: #EAEBED;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  overflow-y: scroll;
+}
+
+.code-text {
+  color: #747474;
+  font-style: italic;
+  font-size: 15px;
+  display: block;
+  line-height: 15px;
+}
+
+.indent-one{
+  padding-left: 10px;
+}
+.indent-two{
+  padding-left: 20px;
+}
+
+.indent-letter {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#bio-intro {
+  font-size: 30px;
+}
+
+#bio-intro p {
+  padding-left: 35px;
+}
+#bio-intro h2 {
+  padding-left: 20px;
+}
+
+#profile-pic {
+  float: right;
+  border: 3px solid  #EAEBED;
+  margin-left: 40px;
+  margin-top: 50px;
+}

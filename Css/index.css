@@ -29,6 +29,8 @@ body  {
   /* set content to start at top of window */
   position: fixed;
   top: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* **********
@@ -133,4 +135,81 @@ label #cancel {
 /* **********
   MAIN
 ********** */
+
+main  {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#EAEBED;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+footer {
+  display:block;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+footer a {
+  /* remove link stylings */
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.intro-box {
+  /* configure text gradiant */
+  background-color: #EAEBED;
+  color: #EAEBED;
+  background-image: linear-gradient(45deg, #EAEBED, #747474);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.intro-box span {
+  color: #5EA5FA;
+  -webkit-text-fill-color: #5EA5FA;
+  -moz-text-fill-color: #5EA5FA;
+  text-shadow: 8px 8px #014392;
+}
+
+.intro-box p {
+  font-style: italic;
+}
+
+.intro-box button {
+  color: white;
+  -webkit-text-fill-color: #EAEBED;
+  -moz-text-fill-color: #EAEBED;
+  background-color: transparent;
+  border: 2px solid #EAEBED;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.intro-box button:hover {
+  font-weight: bold;
+  box-shadow: 3px 3px #5EA5FA;
+}
 

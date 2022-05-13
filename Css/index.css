@@ -228,13 +228,19 @@ footer a {
   text-decoration: inherit;
 }
 
+.body-box h2 {
+  font-size: 200%;
+}
+
+.body-box h1 {
+  font-size: 300%;
+  margin: 100px 30px 50px 30px;
+}
+
 /* **********
   BIO
 ********** */
 
-.body-box h2 {
-  font-size: 200%;
-}
 
 .code-text {
   color: #747474;
@@ -395,10 +401,68 @@ footer a {
   font-size: 20px;
 }
 
-.back-end {
-  flex-direction: row-reverse;
-}
-
 .alt-skill {
   text-align: right;
+}
+
+/* **********
+  PORTFOLIO
+********** */
+
+.work-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.work-box img {
+  max-width: 600px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+}
+
+.work-description {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 20px;
+}
+
+.work-description p {
+  background-color: blue;
+  z-index: 9999;
+  padding: 30px;
+  margin: 30px -80px 30px -80px;
+}
+
+.work-description span {
+  background-color: green;
+  padding: 10px;
+  margin: 0px 10px 0 10px;
+}
+
+.work-description button  {
+  margin-top: 20px;
+  margin-bottom: -90px;
+  color: #EAEBED;
+  background-color: transparent;
+  border: 2px solid #EAEBED;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+/* **********
+  REVERSE STYLE
+********** */
+
+.alt {
+  display: flex;
+  flex-direction: row-reverse;
 }

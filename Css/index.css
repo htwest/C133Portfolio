@@ -457,6 +457,42 @@ footer a {
   font-size: 16px;
 }
 
+/* **********
+  CONTACT
+********** */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: #EAEBED;
+  background-color: transparent;
+  border: 2px solid #EAEBED;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  color: #01152C;
+  background-color: #EAEBED;
+}
+
+.contact-box {
+  border-radius: 5px;
+  background-color: rgb(1, 21, 44, 0.5);
+  padding: 20px;
+}
 
 
 /* **********

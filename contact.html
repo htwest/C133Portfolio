@@ -64,7 +64,45 @@
       </div>
       <!-- MAIN -->
       <main>
-        <div class="body-box"></div>
+        <div class="body-box">
+          <h1>Get In Touch!</h1>
+          <div class="contact-box">
+            <form action="mailto:htwest93@gmail.com" method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name.."
+              />
+
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Title of message.."
+              />
+
+              <label for="reason">Reason for Reaching Out</label>
+              <select id="reason" name="reason">
+                <option value="australia">Freelance Work</option>
+                <option value="canada">Job Offer</option>
+                <option value="usa">Other</option>
+              </select>
+
+              <label for="message">What's on your mind?</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
         <!-- FOOTER -->
         <footer>
           <p>copyright 2022</p>

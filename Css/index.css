@@ -316,14 +316,12 @@ footer a {
   SKILLS
 ********** */
 
-.skills-box {
-  margin-top: 100px;
-}
-
+ /* Skills Graphs */
 .bar-container {
   width: 100%;
   background-color: #EAEBED;
   border-radius: 5px 40px 40px 5px;
+  margin-bottom: 10px;
 }
 
 .skills {
@@ -376,12 +374,16 @@ footer a {
   width: 90%;
 }
 
+.skills-box {
+  background-color: rgb(1, 21, 44, 0.8);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
 .skill-set {
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
-
-  background-color: #01152C;
 }
 
 .skill-description {
@@ -393,4 +395,8 @@ footer a {
 
 .back-end {
   flex-direction: row-reverse;
+}
+
+.alt-skill {
+  text-align: right;
 }
